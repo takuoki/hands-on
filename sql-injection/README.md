@@ -1,6 +1,6 @@
 # sql-injection
 
-## get started
+## Get started
 
 1. Run database
 
@@ -29,6 +29,8 @@ $ curl "localhost:1323/employees?department='or''='"
 ```
 
 ## What's wrong
+
+`./main.go`
 
 * SQL injection vulnerabilities
 

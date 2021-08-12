@@ -7,10 +7,10 @@
         </v-card-title>
         <v-card-text>
           <p>
-            名前：<span v-html="name"></span>
+            名前：{{ name }}
           </p>
           <p>
-            メールアドレス：<span v-html="email"></span>
+            メールアドレス：{{ email }}
           </p>
           <v-btn
             class="primary"
